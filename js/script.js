@@ -127,10 +127,11 @@ function drawOrderChart() {
                     'rgba(255, 206, 86, 0.6)',
                     'rgba(75, 192, 192, 0.6)',
                     'rgba(153, 102, 255, 0.6)',
-                    'rgba(255, 159, 64, 0.6)'
+                    'rgba(255, 159, 64, 0.6)',
                 ],
                 borderWidth: 1
             }]
+
         },
         options: {
             plugins: {
@@ -150,9 +151,9 @@ function drawOrderChart() {
     var activeUsersChart = new Chart(ctx3, {
         type: 'line',
         data: {
-            labels: ['Ruj', 'Göz Farı', 'Fondöten', 'Kapatıcı', 'Allık', 'Aydınlatıcı'],
+            labels: ['', '', '', '', '', ''],
             datasets: [{
-                label: 'Kategorilerin Görüntülenme Sayıları',
+                label: 'Kullanıcı Sayıları',
                 data: [
                     Math.floor(Math.random() * 100) +1,
                     Math.floor(Math.random() * 100) +1,
@@ -162,10 +163,10 @@ function drawOrderChart() {
                     Math.floor(Math.random() * 100) +1
                 ],
                 backgroundColor: [
-                    'rgba(75, 192, 192, 0.2)',
+                    'rgba(255,123,123,0.75)',
                 ],
                 borderColor: [
-                    'rgba(75, 192, 192, 1)',
+                    'rgb(255,123,123)',
                 ],
                 borderWidth: 1
             }]
@@ -211,7 +212,7 @@ function drawOrderChart() {
             datasets: [{
                 label: 'Stok Miktarı',
                 data: stockData,
-                backgroundColor: 'rgba(255,123,123,0.73)',
+                backgroundColor: 'rgb(255,123,123)',
                 borderColor: 'rgb(206,154,153)',
                 borderWidth: 1
             }]
@@ -320,7 +321,7 @@ function checkCredentials(event) {
 
     // Admin bilgileri burada kontrol edilecek
     var adminMail = "admin@lumina.com";
-    var adminPassword = "admin123";
+    var adminPassword = "admin";
 
     if (username === adminMail && password === adminPassword) {
         window.location.href = "admin_page.html"; // Yönlendirilecek sayfanın URL'si

@@ -83,83 +83,74 @@
 <!-- header section end -->
 <!-- admin-page section start -->
 <div class="sale_section">
-    <div class="container banner_bg">
-        <div class="col-md-3">
-            <h1 class="client_taital" style="color: #9f5c59">Aylık Sipariş Miktarları</h1>
-        </div>
-        <div class="chart-container">
-            <div class="col-md-5">
-                <div class="progress-group">
-                    <span class="progress-text" style="align-items: end">Ruj <b>1769</b></span>
-                    <div class="progress sm">
-                        <div class="progress-bar" style="width: 80%"></div>
-                    </div>
+    <div class="chart-container">
+    <h2 class="client_taital" style="color: #9f5c59;">Ürün<br>Stok <br>Miktarı</h2>
+        <div class="col-md-5">
+            <div class="progress-group">
+                <span class="progress-text" style="align-items: end">Ruj <b>1769</b></span>
+                <div class="progress sm">
+                    <div class="progress-bar" style="width: 80%"></div>
                 </div>
-                <div class="progress-group">
-                    <span class="progress-text" style="align-items: end">Allık <b>813</b></span>
-                    <div class="progress sm">
-                        <div class="progress-bar" style="width: 45%"></div>
-                    </div>
+            </div>
+            <div class="progress-group">
+                <span class="progress-text" style="align-items: end">Allık <b>813</b></span>
+                <div class="progress sm">
+                    <div class="progress-bar" style="width: 45%"></div>
                 </div>
-                <div class="progress-group">
-                    <span class="progress-text" style="align-items: end">Göz farı <b>1065</b></span>
-                    <div class="progress sm">
-                        <div class="progress-bar" style="width: 50%"></div>
-                    </div>
+            </div>
+            <div class="progress-group">
+                <span class="progress-text" style="align-items: end">Göz farı <b>1065</b></span>
+                <div class="progress sm">
+                    <div class="progress-bar" style="width: 50%"></div>
                 </div>
-                <div class="progress-group">
-                    <span class="progress-text" style="align-items: end">Aydınlatıcı <b>1.366</b></span>
-                    <div class="progress sm">
-                        <div class="progress-bar" style="width: 68%"></div>
-                    </div>
+            </div>
+            <div class="progress-group">
+                <span class="progress-text" style="align-items: end">Aydınlatıcı <b>1.366</b></span>
+                <div class="progress sm">
+                    <div class="progress-bar" style="width: 68%"></div>
                 </div>
-                <div class="progress-group">
-                    <span class="progress-text" style="align-items: end">Kapatıcı <b>1.675</b></span>
-                    <div class="progress sm">
-                        <div class="progress-bar" style="width: 80%"></div>
-                    </div>
+            </div>
+            <div class="progress-group">
+                <span class="progress-text" style="align-items: end">Kapatıcı <b>1.675</b></span>
+                <div class="progress sm">
+                    <div class="progress-bar" style="width: 80%"></div>
                 </div>
-                <div class="progress-group">
-                    <span class="progress-text" style="align-items: end">Fondöten <b>350</b></span>
-                    <div class="progress sm">
-                        <div class="progress-bar" style="width: 27%"></div>
-                    </div>
+            </div>
+            <div class="progress-group">
+                <span class="progress-text" style="align-items: end">Fondöten <b>350</b></span>
+                <div class="progress sm">
+                    <div class="progress-bar" style="width: 27%"></div>
                 </div>
             </div>
         </div>
     </div>
-    <br><br>
-    <div class="container banner_bg">
-        <div style="float: right">
-            <div style="display: flex; align-items: center;">
-                <h2 class="client_taital" style="color: #9f5c59; right: 30px">Haftalık <br>Satış <br>Miktarı</h2>
-                <canvas id="popularProductsChart" style="width:300px; height:300px;"></canvas>
-            </div>
-        </div>
-        <div style="float: left; margin-right: 3px">
-            <div style="display: flex; align-items: center;">
-                <h2 class="client_taital" style="color: #9f5c59">Günlük <br>Favoriler</h2>
-                <canvas id="myChart" style="width:300px; height:300px;"></canvas>
-            </div>
-        </div>
+</div>
+
+<div class="sale_section">
+    <div class="chart-container">
+        <h2 class="client_taital" style="color: #9f5c59;">Haftalık <br>Satış <br>Miktarı</h2>
+        <canvas id="popularProductsChart" style="width:300px; height:300px;"></canvas>
     </div>
-    <br><br><br>
-    <div class="container banner_bg" style="margin-top: 5px">
-        <div style="float: left; margin-right: 3px"><br><br>
-            <div style="display: flex; align-items: center;">
-                <h2 class="client_taital" style="color: #9f5c59; font-size: 34px">Kategorilerin <br>Görüntülenme <br>Sayısı</h2>
-                <canvas id="activeUsersChart" style="width:300px; height:300px"></canvas>
-            </div>
-        </div>
+</div>
+
+<div class="sale_section">
+    <div class="chart-container">
+        <h2 class="client_taital" style="color: #9f5c59;">Ürün<br>Stok <br>Miktarı</h2>
+        <canvas id="stockChart" style="width:300px; height:300px"></canvas>
     </div>
-    <br><br><br>
-    <div class="container banner_bg" style="margin-top: 5px">
-        <div style="float: right; margin-right: 3px"><br><br>
-            <div style="display: flex; align-items: center;">
-                <h2 class="client_taital" style="color: #9f5c59;">Ürün<br>Stok <br>Miktarı</h2>
-                <canvas id="stockChart" style="width:300px; height:300px"></canvas>
-            </div>
-        </div>
+</div>
+
+<div class="sale_section">
+    <div class="chart-container">
+        <h2 class="client_taital" style="color: #9f5c59">Günlük <br>Favoriler</h2>
+        <canvas id="myChart" style="width:300px; height:300px;"></canvas>
+    </div>
+</div>
+
+<div class="sale_section">
+    <div class="chart-container">
+        <h2 class="client_taital" style="color: #9f5c59; font-size: 34px">Anlık<br>Kullanıcı <br>Sayısı</h2>
+        <canvas id="activeUsersChart" style="width:300px; height:300px"></canvas>
     </div>
 </div>
 <!-- admin-page section end -->

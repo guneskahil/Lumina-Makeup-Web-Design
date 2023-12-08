@@ -51,12 +51,12 @@
                     <li class="nav-item dropdown" onmouseover="showDropdown()" onmouseout="hideDropdown()">
                         <a class="nav-link" href="product.html">Ürünlerimiz</a>
                         <div class="dropdown-menu" id="navbarDropdownMenu">
-                            <a class="dropdown-item" href="product pages/lipstick.html">Ruj</a>
-                            <a class="dropdown-item" href="product pages/concealer.html">Kapatıcı</a>
-                            <a class="dropdown-item" href="product pages/foundation.html">Fondöten</a>
-                            <a class="dropdown-item" href="product pages/eyeshadow.html">Göz Farı</a>
-                            <a class="dropdown-item" href="product pages/blush.html">Allık</a>
-                            <a class="dropdown-item" href="product pages/highlighter.html">Aydınlatıcı</a>
+                            <a class="dropdown-item" href="product%20pages/lipstick.html">Ruj</a>
+                            <a class="dropdown-item" href="product%20pages/concealer.html">Kapatıcı</a>
+                            <a class="dropdown-item" href="product%20pages/foundation.html">Fondöten</a>
+                            <a class="dropdown-item" href="product%20pages/eyeshadow.html">Göz Farı</a>
+                            <a class="dropdown-item" href="product%20pages/blush.html">Allık</a>
+                            <a class="dropdown-item" href="product%20pages/highlighter.html">Aydınlatıcı</a>
                         </div>
                     </li>
                     <li class="nav-item">
@@ -69,15 +69,14 @@
                 <form class="form-inline my-2 my-lg-0">
                     <div class="login_menu">
                         <ul>
-                            <li><a href="#"><img src="images/user-icon.png"></a></li>
+                            <li><a href="user-page.html"><img src="images/user-icon.png"></a></li>
                             <li><a href="#"><img src="images/trolly-icon.png"></a></li>
-                            <li><a href="#" onclick="openSearch('searchModal')"><img src="images/search-icon.png"></a></li>
+                            <li><a href="#"><img src="images/search-icon.png"></a></li>
                             <li><a href="#" onclick="openModal('myModal')">Giriş Yap</a></li>
                         </ul>
                     </div>
                 </form>
             </div>
-
         </nav>
     </div>
 </div>
@@ -103,14 +102,8 @@
         <label class="rememberme" for="rememberme"><input type="checkbox" id="rememberme"> Beni Hatırla</label>
     </div>
 </div>
-<!-- Search Modal -->
-<div id="searchModal" class="modalSearch">
-        <span class="close" onclick="closeSearch('searchModal')">&times;</span>
-        <input type="text" placeholder="Ara..." style="width: 100%;">
-        <!-- Arama butonu veya arama sonuçlarının listeleneceği alan buraya eklenebilir -->
-</div>
 <!-- header section end -->
-
+<!-- user section start -->
 <div class="container" style="text-align: center">
     <section id="user-profile" onclick="toggleProfile()" style="cursor: pointer;">
         <h2>Kullanıcı Bilgileri</h2>
@@ -192,7 +185,35 @@
 </div>
 <!-- copyright section end  -->
 <!-- Javascript files-->
+<script src="js/jquery.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/jquery-3.0.0.min.js"></script>
+<script src="js/plugin.js"></script>
 <script src="js/script.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<!-- sidebar -->
+<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+<script src="js/custom.js"></script>
+<!-- javascript -->
+<script src="js/owl.carousel.js"></script>
+<!-- owl carousel -->
+<script>
+    $('.owl-carousel').owlCarousel({
+        loop: true,
+        margin: 30,
+        nav: true,
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 3
+            },
+            1000: {
+                items: 4
+            }
+        }
+    })
+</script>
 </body>
 </html>
