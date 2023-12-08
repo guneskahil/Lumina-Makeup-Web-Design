@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- mobile metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <!-- site metas -->
+    <title>Lumina</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <!-- style css -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- Responsive-->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- fevicon -->
+    <link rel="icon" href="images/fevicon.png" type="image/gif"/>
+    <!-- Scrollbar Custom CSS -->
+    <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+    <!-- Tweaks for older IEs-->
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
+    <!-- owl stylesheets -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.css" rel="stylesheet"/>
+</head>
+<body>
+<!-- header section start -->
+<div class="header_section">
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="logo" href="index.html"><img src="images/logo.png"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="nav navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Ana Sayfa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">Hakkımızda</a>
+                    </li>
+                    <li class="nav-item dropdown" onmouseover="showDropdown()" onmouseout="hideDropdown()">
+                        <a class="nav-link" href="product.html">Ürünlerimiz</a>
+                        <div class="dropdown-menu" id="navbarDropdownMenu">
+                            <a class="dropdown-item" href="#">Ruj</a>
+                            <a class="dropdown-item" href="#">Kapatıcı</a>
+                            <a class="dropdown-item" href="#">Fondöten</a>
+                            <a class="dropdown-item" href="#">Göz Farı</a>
+                            <a class="dropdown-item" href="#">Allık</a>
+                            <a class="dropdown-item" href="#">Aydınlatıcı</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">İletişim</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <div class="login_menu">
+                        <ul>
+                            <li><a href="user-page.html"><img src="images/user-icon.png"></a></li>
+                            <li><a href="#"><img src="images/trolly-icon.png"></a></li>
+                            <li><a href="#"><img src="images/search-icon.png"></a></li>
+                            <li><a href="#" onclick="openModal('myModal')">Giriş Yap</a></li>
+                        </ul>
+                    </div>
+                </form>
+            </div>
+        </nav>
+    </div>
+</div>
+<div id="myModal" class="modal">
+    <div class="modal-content">
+        <span class="close" style="" onclick="closeModal('myModal')">&times;</span>
+        <h2 style="text-align: center">Giriş Yap</h2>
+        <form class="login-form" onsubmit="checkCredentials(event)">
+            <div class="input-group" style="margin-bottom: 15px;">
+                <label for="username" style="display: block; margin-bottom: 5px;">Kullanıcı Adı:</label>
+                <input type="text" id="username" name="username" style="width: 100%; padding: 8px;">
+            </div>
+
+            <div class="input-group" style="margin-bottom: 15px;">
+                <label for="password" style="display: block; margin-bottom: 5px;">Şifre:</label>
+                <input type="text" id="password" name="password" style="width: 100%; padding: 8px;">
+
+            </div>
+            <div class="input-group">
+                <input type="submit" value="Giriş Yap">
+            </div>
+        </form>
+        <label class="rememberme" for="rememberme"><input type="checkbox" id="rememberme"> Beni Hatırla</label>
+    </div>
+</div>
+<section id="aa-product-details">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="aa-product-details-area">
+                    <div class="aa-product-details-content">
+                        <div class="row">
+                            <!-- Modal view slider -->
+                            <div class="col-md-5 col-sm-5 col-xs-12">
+                                <div class="aa-product-view-slider">
+                                    <div class="main-image">
+                                        <img id="mainImg" src="images/blush-kiko/blush02kiko.webp" alt="Main Image"
+                                             style="max-width: 100%; height: auto;">
+                                    </div>
+                                    <div class="thumbnail-images">
+                                        <img class="thumbnail-image" src="images/blush-kiko/blush02kiko.webp"
+                                             alt="Thumbnail 1" onclick="changeMainImage(this.src)">
+                                        <img class="thumbnail-image" src="images/blush-kiko/blush02-1kiko.webp"
+                                             alt="Thumbnail 3" onclick="changeMainImage(this.src)">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Modal view content -->
+                            <div class="col-md-7 col-sm-7 col-xs-12">
+                                <div class="aa-product-view-content">
+                                    <h3 style="color: black; font-weight: bold">Kiko Allık</h3>
+                                    <div class="aa-price-block">
+                                        <span class="aa-product-view-price">379₺</span>
+                                        <p class="aa-product-avilability" style="color: black"><span>Stokta</span></p>
+                                        <p class="aa-product-avilability" style="color: black">Ürün Kodu:
+                                            KM000000001006A</p>
+                                        <p style="color: black">Uzun süre kalıcı pudra allık</p>
+                                    </div>
+                                    <div class="quantity">
+                                        <button id="decrease" onclick="decreaseValue()">-</button>
+                                        <input style="width: 40px; border: none; text-align: center" type="text"
+                                               id="number" value="1" readonly>
+                                        <button id="increase" onclick="increaseValue()">+</button>
+                                    </div>
+                                    <br><br>
+                                    <button class="add-to-cart-button" onclick="addToCart('Ürün adı')">Sepete Ekle
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="cart" id="cart" style="display:none;">
+                                <h2>Sepet</h2>
+                                <ul id="cart-items">
+                                    <!-- Sepet içeriği burada listelenecek -->
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="aa-product-details-bottom">
+                        <ul class="nav nav-tabs" id="myTab2">
+                            <li><a href="#description" style="font-size: 20px; margin-right: 10px" data-toggle="tab">Ürün
+                                Açıklaması</a></li>
+                            <li><a href="#conclusion" style="font-size: 20px; margin-right: 10px" data-toggle="tab">Sonuçlar</a>
+                            </li>
+                            <li><a href="#howtouse" style="font-size: 20px; margin-right: 10px" data-toggle="tab">Nasıl
+                                Kullanılır?</a></li>
+                        </ul>
+
+                        <!-- Tab panes -->
+                        <div class="tab-content">
+                            <div class="tab-pane fade" id="description">
+                                <p>Karşı konulmaz sağlıklı bir ışıltı ile sabahtan geceye cildi canlandırmak için
+                                    idealdir. Yüzünüze hafif bir renk dokunuşu veren, 12 saate kadar kalıcı, kadifemsi,
+                                    ultra pigmentli, kompakt bir pudra dokusu vardır. Hızlıca cilde nüfuz ederek hoş bir
+                                    rahatlık hissi sağlar. Etkisini hafiften yoğuna kadar artırabilmeniz için kolayca
+                                    dağılır. Mat ve metalik bitişleri bulunmaktadır. Kompakt aynalı kullanışlı ambalajı,
+                                    hareket halindeyken rötuş yapmak için mükemmeldir.
+                                    Dermatolojik olarak test edilmiştir. Komedojenik değildir.
+                                    Ürün, cilt tonuna uyum sağlayan geniş renk skalasıyla geliştirilmiştir. Hassas
+                                    formülü sayesinde cilde zarar vermeden pürüzsüz bir uygulama sunar. İpeksi dokusu,
+                                    allığı kolayca dağıtmanıza ve istediğiniz yoğunluğu elde etmenize olanak tanır.
+                                    Yumuşak ve uzun süre kalıcı formülü, makyajınızın taze ve canlı görünmesini sağlar.
+
+                                    Bu allık, doğal içeriklerle zenginleştirilmiştir ve cildinizi beslerken aynı zamanda
+                                    sağlıklı bir parıltı sunar.
+                                    Kokusuyla da benzersiz bir deneyim sunarak, günlük makyaj rutininize ferahlık ve
+                                    doğallık katar.</p>
+                            </div>
+                            <div class="tab-pane fade" id="conclusion">
+                                <p>Teniniz yumuşak, parlak ve yüksek oranda karıştırılabilir tonlarla doğal bir canlılık
+                                    kazanır.</p>
+                            </div>
+                            <div class="tab-pane fade" id="howtouse">
+                                <ul style="list-style-type: circle">
+                                    <li>Hazırlık: Temiz ve nemlendirilmiş cilde başlayın, makyaj rutininizin temel
+                                        adımlarını tamamlayın.
+                                    </li>
+                                    <li>Ürün Seçimi: Cilt tonunuza uygun allık rengini seçin.</li>
+                                    <li>Fırça Seçimi: Yumuşak kıllı bir allık fırçası kullanın ve fazla ürünü fırçadan
+                                        temizleyin.
+                                    </li>
+                                    <li>Uygulama: Elmacık kemiklerinizin üzerine hafif dokunuşlarla allığı uygulayın.
+                                        İhtiyaca göre yoğunluğu artırabilirsiniz.
+                                    </li>
+                                    <li>Karıştırma: Uyguladıktan sonra, fırçanın temiz kısmıyla veya süngerle hafifçe
+                                        karıştırarak doğal bir görünüm elde edin.
+                                    </li>
+                                    <li>Bitirme: Makyajın genel dengesini korumak için hafif pudra veya aydınlatıcı
+                                        kullanın.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- footer section start -->
+<div class="footer_section layout_padding">
+    <div class="container">
+        <div class="row">
+        </div>
+        <div class="footer_section_2">
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <h3 class="company_text">Popüler Kategoriler</h3>
+                    <a href="product.html" style="color: #fefefe">Kapatıcı</a><br>
+                    <a href="product.html" style="color: #fefefe">Ruj</a><br>
+                    <a href="product.html" style="color: #fefefe">Göz Farı</a><br>
+                    <a href="product.html" style="color: #fefefe">Fondöten</a><br>
+                    <a href="product.html" style="color: #fefefe">Allık</a><br>
+                    <a href="product.html" style="color: #fefefe">Aydınlatıcı</a><br>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h3 class="company_text">Alışveriş ve Yardım</h3>
+                    <a href="product.html" style="color: #fefefe">Mağazalar</a><br>
+                    <a href="product.html" style="color: #fefefe">İade Prosedürü</a><br>
+                    <a href="product.html" style="color: #fefefe">Profil Bilgilerim</a>
+                    <a href="about.html" style="color: #fefefe">Hakkımızda</a><br>
+                    <a href="product.html" style="color: #fefefe">Sıkça Sorulan Sorular</a><br>
+                    <a href="contact.html" style="color: #fefefe">Bize Ulaşın</a><br>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h3 class="company_text">Müşteri Hizmetleri</h3>
+                    <a href="mailto:musterihizmetleri@lumina.com.tr" style="color: #fefefe">musterihizmetleri@lumina.com.tr</a><br>
+                    <a href="#" style="color: #fefefe">0(850)333 3333</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h3 class="company_text">Bizi Takip Edin</h3>
+                    <div class="social_icon">
+                        <li><a href="https://facebook.com.tr" target="_blank"><img src="images/fb-icon.png"></a></li>
+                        <li><a href="https://twitter.com.tr" target="_blank"><img src="images/twitter-icon.png"></a>
+                        </li>
+                        <li><a href="https://instagram.com.tr" target="_blank"><img src="images/instagram-icon.png"></a>
+                        </li>
+                        <li><a href="https://youtube.com.tr" target="_blank"><img src="images/youtub-icon.png"></a></li>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- footer section end -->
+<!-- copyright section start -->
+<div class="copyright_section">
+    <div class="container">
+        <p class="copyright_text">Lumina</p>
+    </div>
+</div>
+<!-- copyright section end  -->
+<!-- Javascript files-->
+<script src="js/jquery.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/jquery-3.0.0.min.js"></script>
+<script src="js/plugin.js"></script>
+<script src="js/script.js"></script>
+<!-- sidebar -->
+<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+<script src="js/custom.js"></script>
+<!-- javascript -->
+<script src="js/owl.carousel.js"></script>
+<!-- owl carousel -->
+<script>
+    $('.owl-carousel').owlCarousel({
+        loop: true,
+        margin: 30,
+        nav: true,
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 3
+            },
+            1000: {
+                items: 4
+            }
+        }
+    })
+</script>
+</body>
+</html>

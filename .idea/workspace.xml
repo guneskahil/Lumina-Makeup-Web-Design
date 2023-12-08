@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4b278312-b3e4-4c62-a3b6-edb37048122d" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="2Ww5Rm7YIdrfZcXVC2VhvUQ2bch" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/gunes/OneDrive/Masaüstü/web proje/lumina",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\gunes\OneDrive\Masaüstü\web proje\lumina" />
+      <recent name="C:\Users\gunes\OneDrive\Masaüstü\Yeni klasör\lumina\images" />
+      <recent name="C:\Users\gunes\OneDrive\Masaüstü\Yeni klasör\htmldeni" />
+      <recent name="C:\Users\gunes\OneDrive\Masaüstü\htmldeni\images\lipstick" />
+      <recent name="C:\Users\gunes\OneDrive\Masaüstü\htmldeni" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\gunes\OneDrive\Masaüstü\htmldeni" />
+      <recent name="C:\Users\gunes\OneDrive\Masaüstü\htmldeni\product pages" />
+      <recent name="C:\Users\gunes\OneDrive\Masaüstü\htmldeni\images" />
+      <recent name="C:\Users\gunes\OneDrive\Masaüstü\htmldeni\images\lipstick-kiko" />
+      <recent name="C:\Users\gunes\OneDrive\Masaüstü\htmldeni\images\blush-dior" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4b278312-b3e4-4c62-a3b6-edb37048122d" name="Changes" comment="" />
+      <created>1697630795372</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1697630795372</updated>
+      <workItem from="1697630796409" duration="2173000" />
+      <workItem from="1697633369333" duration="91000" />
+      <workItem from="1697633475733" duration="7000" />
+      <workItem from="1697633869937" duration="10000" />
+      <workItem from="1697636789570" duration="804000" />
+      <workItem from="1697637667885" duration="612000" />
+      <workItem from="1697638988021" duration="51000" />
+      <workItem from="1697639134610" duration="27372000" />
+      <workItem from="1698061137182" duration="22328000" />
+      <workItem from="1698136964724" duration="9130000" />
+      <workItem from="1698325856171" duration="46421000" />
+      <workItem from="1698678193139" duration="40174000" />
+      <workItem from="1699215452303" duration="43000" />
+      <workItem from="1699215615441" duration="1227000" />
+      <workItem from="1699254904507" duration="2982000" />
+      <workItem from="1699260412467" duration="62000" />
+      <workItem from="1701180854071" duration="13220000" />
+      <workItem from="1701241546992" duration="40000" />
+      <workItem from="1701276445394" duration="2782000" />
+      <workItem from="1701606470763" duration="21446000" />
+      <workItem from="1701700382050" duration="12801000" />
+      <workItem from="1701857613856" duration="4000" />
+      <workItem from="1701861428844" duration="23000" />
+      <workItem from="1701861639846" duration="22000" />
+      <workItem from="1701947727757" duration="17000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

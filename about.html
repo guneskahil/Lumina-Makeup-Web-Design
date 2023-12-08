@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:background-image="http://www.w3.org/1999/xhtml">
+<head>
+    <!-- basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- mobile metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <!-- site metas -->
+    <title>Lumina</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <!-- style css -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- Responsive-->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- fevicon -->
+    <link rel="icon" href="images/fevicon.png" type="image/gif"/>
+    <!-- Scrollbar Custom CSS -->
+    <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+    <!-- Tweaks for older IEs-->
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
+    <!-- owl stylesheets -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.css" rel="stylesheet"/>
+    <style>
+        .about_section_1 {
+            background-image: url(/images/aboutimage.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+<body>
+<!-- header section start -->
+<div class="header_section">
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="logo" href="#"><img src="images/logo.png"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="nav navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Ana Sayfa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">Hakkımızda</a>
+                    </li>
+                    <li class="nav-item dropdown" onmouseover="showDropdown()" onmouseout="hideDropdown()">
+                        <a class="nav-link" href="product.html">Ürünlerimiz</a>
+                        <div class="dropdown-menu" id="navbarDropdownMenu">
+                            <a class="dropdown-item" href="product pages/lipstick.html">Ruj</a>
+                            <a class="dropdown-item" href="product pages/concealer.html">Kapatıcı</a>
+                            <a class="dropdown-item" href="product pages/foundation.html">Fondöten</a>
+                            <a class="dropdown-item" href="product pages/eyeshadow.html">Göz Farı</a>
+                            <a class="dropdown-item" href="product pages/blush.html">Allık</a>
+                            <a class="dropdown-item" href="product pages/highlighter.html">Aydınlatıcı</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">İletişim</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <div class="login_menu">
+                        <ul>
+                            <li><a href="user-page.html"><img src="images/user-icon.png"></a></li>
+                            <li><a href="#"><img src="images/trolly-icon.png"></a></li>
+                            <li><a href="#" onclick="openModal('myModal')">Giriş Yap</a></li>
+                        </ul>
+                    </div>
+                </form>
+            </div>
+        </nav>
+    </div>
+</div>
+<div id="myModal" class="modal">
+    <div class="modal-content">
+        <span class="close" style="" onclick="closeModal('myModal')">&times;</span>
+        <h2 style="text-align: center">Giriş Yap</h2>
+        <form class="login-form" onsubmit="checkCredentials(event)">
+            <div class="input-group" style="margin-bottom: 15px;">
+                <label for="username" style="display: block; margin-bottom: 5px;">Kullanıcı Adı:</label>
+                <input type="text" id="username" name="username" style="width: 100%; padding: 8px;">
+            </div>
+
+            <div class="input-group" style="margin-bottom: 15px;">
+                <label for="password" style="display: block; margin-bottom: 5px;">Şifre:</label>
+                <input type="text" id="password" name="password" style="width: 100%; padding: 8px;">
+
+            </div>
+            <div class="input-group">
+                <input type="submit" value="Giriş Yap">
+            </div>
+        </form>
+        <label class="rememberme" for="rememberme"><input type="checkbox" id="rememberme"> Beni Hatırla</label>
+    </div>
+</div>
+<!-- header section end -->
+
+<!-- trolly icon start -->
+
+<!-- trolly icon end -->
+
+<!-- about section start -->
+<div class="about_section_1 layout_padding">
+    <div class="container">
+        <h1 class="about_taital padding_top0">Hakkımızda</h1>
+        <div class="align-content-md-start">
+            <h3 class="text-dark">Biz Kimiz?</h3>
+            <p class="text-info">1969 yılından beri, güzelliğin nabzını tutan Lumina 150'den fazla marka ve 14.000 ürün
+                ile müşterilerine eşsiz bir deneyim sunuyor. Aradığınız makyaj, fondöten, eyeliner, maskara, ruj, far,
+                ürünlerini Lumina'da bulabilirsin.</p>
+            <h3 class="text-dark">Misyonumuz</h3>
+            <p class="text-info">Lumina kendini tek bir hedefe adamıştır: tüm kadınların bütçelerini feda etmek zorunda
+                kalmadan kendilerini en yenilikçi kozmetiklerle şımartmalarını sağlamak;<br>
+                her zaman trend olan en kaliteli tonlar, ambalajlar ve formüller ile tüm müşterilerine makyaj ve
+                bakımların tüm alanlarında deneme şansı vermek için.<br>
+                Son olarak, kozmetik kurallarını yeniden yazabilen bir güzellik bakım konsepti yaratmak için: kalite
+                artık yüksek fiyatlar demek değil. Lumina ile her bütçe için profesyonel lüks, dokunabileceğiniz heyecan
+                verici bir gerçekliktir.</p>
+            <h3 class="text-dark">Renk</h3>
+            <p class="text-info">Renklerin etkisi anındadır ve Lumina'nın güzelliği bunda saklıdır. Hayatını
+                renklendir!</p>
+            <h3 class="text-dark">İnovasyon</h3>
+            <p class="text-info">Lumina, serilerinde özel ve son teknolojileri kullanarak kozmetikteki en güncel
+                inovasyonları kullanır. Değişim güzeldir!</p>
+            <h3 class="text-dark">Kalite ve Güvenlik</h3>
+            <p class="text-info">Lumina bakımları, güzellik ile yüz ve vücut bakımının ayrılmaz bir şekilde ilişkili
+                olduğunu ve aynı kalite tutkusunun, sürekli yenilik ve tek bir güce dayandığı önermesine inanmaktadır:
+                cilt tutkusu.
+                <br>Lumina, her zaman benzersiz ve devrim niteliğinde ürünler sunmak için kozmetik araştırmalarındaki en
+                son keşifleri takip eder.
+                Ürünler, her formülün güvenli ve güvenilir olduğundan emin olmak için sıkı klinik güvenlik testlerinden
+                geçer. Tüm cilt bakım ürünleri, hipoalerjenik ve komedojenik olmadıklarından emin olmak için formüle
+                edilmiş ve test edilmiştir; Göz çevresindeki cilt için yapılan tedaviler oftalmolojik olarak test
+                edilmiştir.</p>
+            <h3 class="text-dark">Vizyonumuz</h3>
+            <p class="text-info">Kozmetik dünyasında bir adım önde olmak için varız. Lumina, güzellik anlayışınızı
+                yeniden tanımlarken her kadının kendini özel hissetmesini sağlamak için burada. İnovasyon, kalite ve
+                güvenliğin bir araya geldiği yerdeyiz. Renklerin ve yeniliklerin büyüleyici dünyasına birlikte adım
+                atalım. Lumina, güzelliği herkesin erişebileceği, kaliteden ödün vermeden yaşanabilen bir gerçeklik
+                haline getiriyor.Kozmetik dünyasında bir adım önde olmak için varız. Lumina, güzellik anlayışınızı
+                yeniden tanımlarken her kadının kendini özel hissetmesini sağlamak için burada. İnovasyon, kalite ve
+                güvenliğin bir araya geldiği yerdeyiz. Renklerin ve yeniliklerin büyüleyici dünyasına birlikte adım
+                atalım.
+                Lumina, güzelliği herkesin erişebileceği, kaliteden ödün vermeden yaşanabilen bir gerçeklik haline
+                getiriyor.</p>
+        </div>
+    </div>
+</div>
+<!-- about section end -->
+<!-- footer section start -->
+<div class="footer_section layout_padding">
+    <div class="container">
+        <div class="footer_section_2">
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <h3 class="company_text">Popüler Kategoriler</h3>
+                    <a href="product.html" style="color: #fefefe">Kapatıcı</a><br>
+                    <a href="product.html" style="color: #fefefe">Ruj</a><br>
+                    <a href="product.html" style="color: #fefefe">Göz Farı</a><br>
+                    <a href="product.html" style="color: #fefefe">Fondöten</a><br>
+                    <a href="product.html" style="color: #fefefe">Allık</a><br>
+                    <a href="product.html" style="color: #fefefe">Aydınlatıcı</a><br>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h3 class="company_text">Alışveriş ve Yardım</h3>
+                    <a href="#" style="color: #fefefe">Mağazalar</a><br>
+                    <a href="#" style="color: #fefefe">İade Prosedürü</a><br>
+                    <a href="#" style="color: #fefefe">Profil Bilgilerim</a>
+                    <a href="about.html" style="color: #fefefe">Hakkımızda</a><br>
+                    <a href="#" style="color: #fefefe">Sıkça Sorulan Sorular</a><br>
+                    <a href="contact.html" style="color: #fefefe">Bize Ulaşın</a><br>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h3 class="company_text">Müşteri Hizmetleri</h3>
+                    <a href="mailto:musterihizmetleri@lumina.com.tr" style="color: #fefefe">musterihizmetleri@lumina.com.tr</a><br>
+                    <a href="#" style="color: #fefefe">0(850)333 3333</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h3 class="company_text">Bizi Takip Edin</h3>
+                    <div class="social_icon">
+                        <li><a href="https://facebook.com.tr" target="_blank"><img src="images/fb-icon.png"></a></li>
+                        <li><a href="https://twitter.com.tr" target="_blank"><img src="images/twitter-icon.png"></a>
+                        </li>
+                        <li><a href="https://instagram.com.tr" target="_blank"><img src="images/instagram-icon.png"></a>
+                        </li>
+                        <li><a href="https://youtube.com.tr" target="_blank"><img src="images/youtub-icon.png"></a></li>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- footer section end -->
+<!-- copyright section start -->
+<div class="copyright_section">
+    <div class="container">
+        <p class="copyright_text">Lumina<a href="https://html.design"></a></p>
+    </div>
+</div>
+<!-- copyright section end  -->
+<!-- Javascript files-->
+<script src="js/jquery.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/jquery-3.0.0.min.js"></script>
+<script src="js/plugin.js"></script>
+<script src="js/script.js"></script>
+<!-- sidebar -->
+<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+<script src="js/custom.js"></script>
+<!-- javascript -->
+<script src="js/owl.carousel.js"></script>
+<!-- owl carousel -->
+</body>
+</html>
