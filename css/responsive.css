@@ -141,6 +141,11 @@
     .banner_taital {
         padding-top: 60px;
     }
+    .announcement {
+        border: 1px solid rgb(255, 255, 255);
+        border-radius: 5px;
+        width: 100%;
+    }
     .read_bt {
         margin-top: 20px;
     }
@@ -260,6 +265,11 @@
     }
     .border {
         height: 40px;
+    }
+    .announcement {
+        border: 1px solid rgb(255, 255, 255);
+        border-radius: 5px;
+        width: 100%;
     }
     .read_bt_1 {
         margin-bottom: 20px;
@@ -388,6 +398,11 @@
     .taital_left {
         width: 35%;
         float: left;
+    }
+    .announcement {
+        border: 1px solid rgb(255, 255, 255);
+        border-radius: 5px;
+        width: 100%;
     }
     .banner_taital {
         width: 100%;
@@ -663,6 +678,11 @@
         height: 80px;
         bottom: 0px;
         top: initial;
+    }
+    .announcement {
+        border: 1px solid rgb(255, 255, 255);
+        border-radius: 5px;
+        width: 100%;
     }
     .mail_section_1 {
         width: 100%;
