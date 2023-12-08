@@ -147,17 +147,6 @@
     .about_text {
         width: 90%;
     }
-    .about_section {
-        text-align: center;
-        width: 100%;
-    }
-    .about_text_1 {
-        width: 100%;
-        color: #000;
-        text-align: center;
-        font-weight: inherit;
-    margin-left: 50%;
-    }
     #abc {
         margin-left: 50%;
     }
@@ -658,6 +647,18 @@
         padding-bottom: 90px;
     }
     .contact_section::after {
+        width: 80px;
+        height: 80px;
+        bottom: 0px;
+        top: initial;
+    }
+    .about_section::after {
+        width: 80px;
+        height: 80px;
+        bottom: 0px;
+        top: initial;
+    }
+    .campaigns_section::after {
         width: 80px;
         height: 80px;
         bottom: 0px;
