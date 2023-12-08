@@ -258,7 +258,7 @@ function editAddress(addressNumber) {
     var newAddress = prompt("Yeni adresi girin:");
     if (newAddress != null) {
         var addressElement = document.querySelector(`#addresses .address:nth-of-type(${addressNumber}) p`);
-        addressElement.textContent = "Adres " + addressNumber + ": " + newAddress;
+        addressElement.textContent = "Adres " + ": " + newAddress;
     }
 }
 

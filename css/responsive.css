@@ -683,7 +683,7 @@
     }
     .about_section::after {
         width: 80px;
-        height: 80px;
+        height: 110%;
         bottom: 0px;
         top: initial;
     }
