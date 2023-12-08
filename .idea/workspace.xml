@@ -4,7 +4,220 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b278312-b3e4-4c62-a3b6-edb37048122d" name="Changes" comment="" />
+    <list default="true" id="4b278312-b3e4-4c62-a3b6-edb37048122d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/htmldeni.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vscode/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_sections.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/campaigns.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/animate.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/default-skin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/icomoon.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/jquery-ui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/jquery.fancybox.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/jquery.mCustomScrollbar.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/jquery.simpleLens.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/meanmenu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/nice-select.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/owl.carousel.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/slick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/swiper.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/1pic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2pic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/3pic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/4pic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/5pic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/about.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/aboutimage.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/angle-left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/angle-right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/banner_white.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/blog.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/blog1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/blog2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/blog3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/blush-kiko/blush02-1kiko.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/blush-kiko/blush02kiko.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/blush-kiko/blush06-1kiko.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/blush-kiko/blush06-1stickkiko.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/blush-kiko/blush06-2stickkiko.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/blush-kiko/blush06kiko.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/blush-kiko/blush06stickkiko.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/blush-kiko/kiko.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/blush-mac/blushmac-cheekydevil.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/blush-mac/blushmac-cheekydevil1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/blush-mac/blushmac-cheekydevil2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/blush-mac/blushmac-cheekydevil3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/blush-mac/blushmac-cheekydevil4.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/blush-mac/blushmac-sonatural.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/blush-mac/blushmac-sonatural1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/blush-mac/blushmac-sonatural2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/blush-mac/blushmac-sonatural3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/blush-nars/blushnars-orgasm.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/blush-nars/blushnars-orgasm1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/blush-nars/blushnars-orgasm2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/blush-nars/blushnars-orgasm3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/blush-rarebeauty/blushrarebeauty-Soft Pinch.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/blush-rarebeauty/blushrarebeauty-Soft Pinch1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/blush-rarebeauty/blushrarebeauty-Soft Pinch2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/blush-rarebeauty/blushrarebeauty-nearlyrose.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/call-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/client-img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/concealer/P10017091_1.avif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/concealer/P3643138_3.avif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/concealer/fenty-kapatıcı.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/concealer/fenty.avif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/concealer/lancome-kapatıcı.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/concealer/lancome.avif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/concealer/nars-kapatıcı.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/concealer/nars.avif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/concealer/rarebeauty-kapatıcı.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/concealer/tarte-kapatıcı.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/customer.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/customer1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/customer2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/customer3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/face-img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/face-img1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/fb-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/footer-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/foundation/lancome-fondöten.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/foundation/nars-fondöten.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/foundation/sephora-fondöten.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/headlight/dior-far.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/headlight/hudabeauty-far.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/headlight/hudabeauty.avif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/headlight/hudabeauty1.avif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/headlight/hudabeauty2.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/headlight/nars-far.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/headlight/nars.avif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/headlight/natasha-far.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/headlight/natasha-far1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/headlight/natasha.avif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/headlight/natasha1.avif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/highlighter/fenty-highlighter.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/highlighter/fenty-highlighter1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/highlighter/fenty1.avif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/highlighter/fenty2.avif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/highlighter/rarebeauty-highlighter.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/highlighter/rarebeauty-highlighter1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/highlighter/rarebeauty.avif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/highlighter/rarebeauty1.avif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/highlighter/sephora-highlighter.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/highlighter/sephora.avif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/home.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/homepng.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icon1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icon2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icon3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/img-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/img-10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/img-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/img-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/img-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/img-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/img-6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/img-7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/img-8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/img-9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/img_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/img_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/img_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/img_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/img_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/img_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/instagram-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/kampanya-background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/kampanya.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/lipstick/benefit-dudak.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/lipstick/kiko gloss-17 Pearly Mauve-1.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/lipstick/kiko gloss-17 Pearly Mauve.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/lipstick/kiko gloss-17 Pearly Mauve1.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/lipstick/kiko gloss-42 Charming Copper-1.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/lipstick/kiko gloss-42 Charming Copper-2.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/lipstick/kiko gloss-42 Charming Copper.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/lipstick/kiko ruj-112 Satin Peach Rose.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/lipstick/kiko ruj-112 Satin Peach Rose1.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/lipstick/kiko ruj-112 Satin Peach Rose2.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/lipstick/kiko ruj-112 Satin Peach Rose3.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/lipstick/kiko ruj-120 Rosy Mauve-1.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/lipstick/kiko ruj-120 Rosy Mauve-2.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/lipstick/kiko ruj-120 Rosy Mauve-3.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/lipstick/kiko ruj-120 Rosy Mauve.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/lipstick/kiko ruj.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/lipstick/kiko ruj1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/lipstick/nars-Afterglow Sensual Shine Lipstick.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/lipstick/sephora-ruj.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/logonew.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/mail-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/makeupstudio.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/map-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/product-img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/quick-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/search-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/services-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/slider2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/slider3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/slider4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/social-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/studio.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/trolly-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/twitter-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/user-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/youtub-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/jquery-3.0.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/jquery.mCustomScrollbar.concat.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/jquery.validate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/modernizer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/slider-setting.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product pages/blush.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product pages/concealer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product pages/eyeshadow.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product pages/foundation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product pages/highlighter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product pages/lipstick.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-page.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,33 +231,39 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="2Ww5Rm7YIdrfZcXVC2VhvUQ2bch" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/gunes/OneDrive/Masaüstü/web proje/lumina",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/gunes/OneDrive/Masaüstü/web proje/lumina&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\gunes\OneDrive\Masaüstü\web proje" />
       <recent name="C:\Users\gunes\OneDrive\Masaüstü\web proje\lumina" />
       <recent name="C:\Users\gunes\OneDrive\Masaüstü\Yeni klasör\lumina\images" />
       <recent name="C:\Users\gunes\OneDrive\Masaüstü\Yeni klasör\htmldeni" />
       <recent name="C:\Users\gunes\OneDrive\Masaüstü\htmldeni\images\lipstick" />
-      <recent name="C:\Users\gunes\OneDrive\Masaüstü\htmldeni" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\gunes\OneDrive\Masaüstü\htmldeni" />
@@ -87,10 +306,24 @@
       <workItem from="1701861428844" duration="23000" />
       <workItem from="1701861639846" duration="22000" />
       <workItem from="1701947727757" duration="17000" />
+      <workItem from="1701954703350" duration="7745000" />
+      <workItem from="1702028117618" duration="1634000" />
+      <workItem from="1702030354453" duration="617000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
