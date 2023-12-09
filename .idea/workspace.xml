@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b278312-b3e4-4c62-a3b6-edb37048122d" name="Changes" comment="edit-script">
+    <list default="true" id="4b278312-b3e4-4c62-a3b6-edb37048122d" name="Changes" comment="edit-xml">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/responsive.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +104,7 @@
       <workItem from="1702030354453" duration="617000" />
       <workItem from="1702042751569" duration="7154000" />
       <workItem from="1702056504003" duration="3642000" />
-      <workItem from="1702152678852" duration="1725000" />
+      <workItem from="1702152678852" duration="3265000" />
     </task>
     <task id="LOCAL-00001" summary="edit">
       <option name="closed" value="true" />
@@ -147,7 +146,23 @@
       <option name="project" value="LOCAL" />
       <updated>1702059883209</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="edit-css">
+      <option name="closed" value="true" />
+      <created>1702157259913</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1702157259913</updated>
+    </task>
+    <task id="LOCAL-00007" summary="edit-xml">
+      <option name="closed" value="true" />
+      <created>1702157276668</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1702157276668</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,6 +183,8 @@
     <MESSAGE value="edit" />
     <MESSAGE value="edit-responsive" />
     <MESSAGE value="edit-script" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit-script" />
+    <MESSAGE value="edit-css" />
+    <MESSAGE value="edit-xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit-xml" />
   </component>
 </project>
